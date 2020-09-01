@@ -35,4 +35,5 @@ body {
 
 .pass, .fail {
     margin: 5px 0;
+    padding: 0 2px;
 }

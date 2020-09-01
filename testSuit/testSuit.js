@@ -8,9 +8,9 @@ class TestSuite {
         this.assert(true, `Test suit is running.`);
     }
 
-    assert = (value, descr) => {
+    assert = (condition, descr) => {
         let li = document.createElement('li');
-        li.className = value ? 'pass' : 'fail';
+        li.className = condition ? 'pass' : 'fail';
         li.innerText = descr;
         this.result.appendChild(li);
     }
