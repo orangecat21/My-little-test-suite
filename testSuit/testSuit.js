@@ -13,6 +13,7 @@ class TestSuite {
         li.className = condition ? 'pass' : 'fail';
         li.innerText = descr;
         this.result.appendChild(li);
+        
     }
 
     report = (msg) => {
